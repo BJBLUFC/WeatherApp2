@@ -1,0 +1,54 @@
+html { 
+    background: url(../images/salfordnight.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.weather-container {
+    height: 300px;
+    width: 700px;
+    border: 1px solid black;
+    text-align: center;
+    position:  relative;
+    left: 400px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px; 
+    font-family: "Montserrat", sans-serif;
+    background-image: none;
+}
+
+.highlight {
+    opacity: 0.9;
+    color: yellow;
+}
+
+.weather {
+    font-size: 22px;
+    margin: 0;
+}
+
+.temp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold; 
+}
+
+.welcome-banner {
+    font-size: 75px;
+    text-align: center;
+    font-family:'Fascinate', cursive;
+    text-shadow: 1px 1px;
+    color: yellow;
+    margin: 0 auto;
+   
+}
+
+.coatofarms {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 670px;
+    margin: 0 auto;
+}
